@@ -38,8 +38,8 @@
             <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://www.linkedin.com/in/robertbherring" target="_blank">http://www.linkedin.com/in/robertbherring</a></p>
             <p class="text-sm lg:text-base m-0 p-0"><a href="http://dribbble.com/pixelrubble" target="_blank">dribbble:</a></p>
             <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://dribbble.com/pixelrubble" target="_blank">http://dribbble.com/pixelrubble</a></p>
-            <p class="text-sm lg:text-base m-0 p-0"><a href="http://instagram.com/fromtherubble" target="_blank">instagram:</a></p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://instagram.com/fromtherubble" target="_blank">http://instagram.com/fromtherubble</a></p>
+            <p class="text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">instagram:</p>
+            <p class="text-sm lg:text-base m-0 p-0 col-span-3 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">http://instagram.com/fromtherubble</p>
             <!-- <p class="text-sm lg:text-base m-0 p-0"><a href="https://twitter.com/fishgraphics" target="_blank">twitter:</a></p> -->
             <!-- <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="https://twitter.com/fishgraphics" target="_blank">https://twitter.com/fishgraphics</a></p> -->
         </div>
