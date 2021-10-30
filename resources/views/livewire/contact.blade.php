@@ -16,7 +16,7 @@
         <div class="hidden status">
             <p id="signup-response"></p>
         </div>
-        <div class="flex gap-6">
+        <div class="lg:flex gap-6 space-y-6 lg:space-y-0">
             <input class="w-full p-2 text-blue-300 hover:text-blue-400 bg-white bg-opacity-30 hover:bg-opacity-10 border border-black border-opacity-60 ease-in-out transition-all duration-150" type="submit" name="submit" class="button" id="submit_btn" value="Send Message" />
             <input class="w-full p-2 text-blue-300 hover:text-blue-400 bg-white bg-opacity-30 hover:bg-opacity-10 border border-black border-opacity-60" type="reset" name="reset" value="Reset Form" />
         </div>
