@@ -9,8 +9,8 @@
         <div class="max-w-screen-lg mx-auto mb-6 lg:my-6 shadow">
             <div class="lg:grid grid-cols-3 text-gray-50 relative">
                 <nav class="inside absolute transform -rotate-90 top-28 hidden lg:flex">
-                    <div class="bg-gray-200 hover:bg-gray-400 border-r border-gray-100"><a href="/download-resume" target="_blank" class="block"><span class="px-4 text-xl py-2 block hover:text-gray-200">resume</span></a></div>
-                    <div class="bg-gray-200 hover:bg-gray-400 border-l border-gray-300 cursor-pointer" onclick="Livewire.emit('openModal', 'contact')"><span class="px-4 text-xl py-2 block hover:text-gray-200" style="font-family:exolight;">contact</span></div>
+                    <div class="bg-gray-200 hover:bg-gray-400 border-r border-gray-100 ease-in-out transition-all duration-150"><a href="/download-resume" target="_blank" class="block"><span class="px-4 text-xl py-2 block hover:text-gray-200">resume</span></a></div>
+                    <div class="bg-gray-200 hover:bg-gray-400 border-l border-gray-300 cursor-pointer ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'contact')"><span class="px-4 text-xl py-2 block hover:text-gray-200" style="font-family:exolight;">contact</span></div>
                 </nav>
                 <div class="col-span-2 bg-black bg-opacity-20 p-6 lg:p-12">
                     <div class="lg:hidden aspect-w-1 aspect-h-1 rounded-full">
