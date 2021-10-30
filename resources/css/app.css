@@ -1,0 +1,339 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    /***********************************************/
+    /******************** Fonts ********************/
+    /***********************************************/
+
+    @font-face {
+        font-family: 'exoblack';
+        src: url('/fonts/exo-black.eot');
+        src: url('/fonts/exo-black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-black.woff') format('woff'),
+        url('/fonts/exo-black.ttf') format('truetype'),
+        url('/fonts/exo-black.svg#exoblack') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoblackitalic';
+        src: url('/fonts/exo-blackitalic.eot');
+        src: url('/fonts/exo-blackitalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-blackitalic.woff') format('woff'),
+        url('/fonts/exo-blackitalic.ttf') format('truetype'),
+        url('/fonts/exo-blackitalic.svg#exoblackitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exobold';
+        src: url('/fonts/exo-bold.eot');
+        src: url('/fonts/exo-bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-bold.woff') format('woff'),
+        url('/fonts/exo-bold.ttf') format('truetype'),
+        url('/fonts/exo-bold.svg#exobold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exobolditalic';
+        src: url('/fonts/exo-bolditalic.eot');
+        src: url('/fonts/exo-bolditalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-bolditalic.woff') format('woff'),
+        url('/fonts/exo-bolditalic.ttf') format('truetype'),
+        url('/fonts/exo-bolditalic.svg#exobolditalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoextrabold';
+        src: url('/fonts/exo-extrabold.eot');
+        src: url('/fonts/exo-extrabold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-extrabold.woff') format('woff'),
+        url('/fonts/exo-extrabold.ttf') format('truetype'),
+        url('/fonts/exo-extrabold.svg#exoextrabold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoextrabolditalic';
+        src: url('/fonts/exo-extrabolditalic.eot');
+        src: url('/fonts/exo-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-extrabolditalic.woff') format('woff'),
+        url('/fonts/exo-extrabolditalic.ttf') format('truetype'),
+        url('/fonts/exo-extrabolditalic.svg#exoextrabolditalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoextralight';
+        src: url('/fonts/exo-extralight.eot');
+        src: url('/fonts/exo-extralight.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-extralight.woff') format('woff'),
+        url('/fonts/exo-extralight.ttf') format('truetype'),
+        url('/fonts/exo-extralight.svg#exoextralight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoextralightitalic';
+        src: url('/fonts/exo-extralightitalic.eot');
+        src: url('/fonts/exo-extralightitalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-extralightitalic.woff') format('woff'),
+        url('/fonts/exo-extralightitalic.ttf') format('truetype'),
+        url('/fonts/exo-extralightitalic.svg#exoextralightitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoitalic';
+        src: url('/fonts/exo-italic.eot');
+        src: url('/fonts/exo-italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-italic.woff') format('woff'),
+        url('/fonts/exo-italic.ttf') format('truetype'),
+        url('/fonts/exo-italic.svg#exoitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exolight';
+        src: url('/fonts/exo-light.eot');
+        src: url('/fonts/exo-light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-light.woff') format('woff'),
+        url('/fonts/exo-light.ttf') format('truetype'),
+        url('/fonts/exo-light.svg#exolight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exolightitalic';
+        src: url('/fonts/exo-lightitalic.eot');
+        src: url('/fonts/exo-lightitalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-lightitalic.woff') format('woff'),
+        url('/fonts/exo-lightitalic.ttf') format('truetype'),
+        url('/fonts/exo-lightitalic.svg#exolightitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exomedium';
+        src: url('/fonts/exo-medium.eot');
+        src: url('/fonts/exo-medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-medium.woff') format('woff'),
+        url('/fonts/exo-medium.ttf') format('truetype'),
+        url('/fonts/exo-medium.svg#exomedium') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exomediumitalic';
+        src: url('/fonts/exo-mediumitalic.eot');
+        src: url('/fonts/exo-mediumitalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-mediumitalic.woff') format('woff'),
+        url('/fonts/exo-mediumitalic.ttf') format('truetype'),
+        url('/fonts/exo-mediumitalic.svg#exomediumitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exoregular';
+        src: url('/fonts/exo-regular.eot');
+        src: url('/fonts/exo-regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-regular.woff') format('woff'),
+        url('/fonts/exo-regular.ttf') format('truetype'),
+        url('/fonts/exo-regular.svg#exoregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exodemibold';
+        src: url('/fonts/exo-semibold.eot');
+        src: url('/fonts/exo-semibold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-semibold.woff') format('woff'),
+        url('/fonts/exo-semibold.ttf') format('truetype'),
+        url('/fonts/exo-semibold.svg#exodemibold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exodemibolditalic';
+        src: url('/fonts/exo-semibolditalic.eot');
+        src: url('/fonts/exo-semibolditalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-semibolditalic.woff') format('woff'),
+        url('/fonts/exo-semibolditalic.ttf') format('truetype'),
+        url('/fonts/exo-semibolditalic.svg#exodemibolditalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exothin';
+        src: url('/fonts/exo-thin.eot');
+        src: url('/fonts/exo-thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-thin.woff') format('woff'),
+        url('/fonts/exo-thin.ttf') format('truetype'),
+        url('/fonts/exo-thin.svg#exothin') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'exothinitalic';
+        src: url('/fonts/exo-thinitalic.eot');
+        src: url('/fonts/exo-thinitalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/exo-thinitalic.woff') format('woff'),
+        url('/fonts/exo-thinitalic.ttf') format('truetype'),
+        url('/fonts/exo-thinitalic.svg#exothinitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+    /************************************************/
+    /******************** Reset ********************/
+    /************************************************/
+
+    * { @apply m-0 p-0; }
+    html, body { @apply w-full h-full; }
+    html { @apply bg-grayish-700 overflow-x-hidden; }
+    img { @apply border-none; }
+    img a { @apply border-none; }
+    a { @apply no-underline text-white font-normal; font-family:exolight; }
+    a:hover { @apply text-blue-400 ease-in-out transition-all duration-150; }
+    :focus { @apply outline-none; -moz-outline-style: none; }
+    textarea { @apply resize-none;}
+
+    h1, h2, h3, h4, h5, h6 { @apply font-normal; /*font-family:Arial, Helvetica, sans-serif;*/ /*text-shadow: 0 0 10px #000;*/ /*text-transform:uppercase;*/ }
+    h1 { font-family: exoextralight; @apply text-3xl md:text-5xl m-0 text-blue-400; }
+    h2 { font-family: exobold; @apply text-2xl md:text-4xl m-0 text-blue-400; }
+    h3 { font-family: exomedium; @apply text-xl uppercase text-white; }
+    h4 { font-family: exolight; @apply text-lg text-gray-300; }
+    h5 { font-family: exobold; @apply text-lg uppercase text-blue-400; }
+    h6 { font-family: exobold; @apply text-base uppercase text-gray-300; }
+
+    ul, ol { @apply mb-6; }
+    ul.bullet li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        @apply text-black; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        @apply text-4xl;
+    }
+    ul.menu {@apply m-0;}
+    ul.menu li { font-family:exolight; @apply text-2xl list-none text-white m-0; }
+    li { font-family:exolight; @apply text-2xl list-none text-white mb-6; }
+    li span { @apply text-gray-400; }
+
+    p { font-family:exolight; @apply text-base text-gray-400 leading-5 mt-1 mb-6; /*text-shadow: 0 0 10px #000;*/ }
+    p span { font-family:exodemibold; @apply text-gray-400; }
+    span { @apply text-gray-400; }
+    strong { font-family:exodemibold; @apply font-normal; }
+
+    input { @apply w-full text-blue-400 bg-black bg-opacity-40 border border-black border-opacity-60; }
+
+    nav {
+        left: -93px;
+    }
+    nav.inside:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 15px 15px;
+        border-color: transparent transparent #7c7c7c;
+        top: 0;
+        left: -15px;
+        box-shadow: inset 0 0 10px #000;
+    }
+
+    .ham {
+        position: relative;
+        /* keep the hamburger button above everything */
+        z-index: 1001;
+        cursor: pointer;
+    }
+
+    .fixbtn {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+    }
+
+    .xIcon {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        list-style: none;
+        padding-top: 4rem;
+        z-index: 1000;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    .menuLink {
+        display: block;
+        text-decoration: none;
+    }
+
+    .menuLink:hover {
+        text-decoration: underline;
+    }
+    .hasSub:hover + .submenu {
+        display: block !important;
+    }
+    .submenu:hover {
+        display: block !important;
+    }
+}
