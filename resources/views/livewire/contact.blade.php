@@ -25,23 +25,39 @@
     <div class="contact">
         <h3>Other Ways to Contact Me</h3>
 
-        <div class="grid grid-cols-4 space-y-1">
-            <p class="text-sm lg:text-base m-0 p-0 cursor-default text-white">Email:</p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3 cursor-default text-white">info@robert-herring.com</p>
-            <p class="text-sm lg:text-base m-0 p-0 cursor-default text-white">Phone:</p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3 cursor-default text-white">803.553.2043</p>
-            <p class="text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'videos')">Video Work:</p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'videos')">YouTube Playlist</p>
-            <p class="text-sm lg:text-base m-0 p-0"><a href="http://www.facebook.com/pixelrubble" target="_blank">Facebook:</a></p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://www.facebook.com/pixelrubble" target="_blank">http://www.facebook.com/pixelrubble</a></p>
-            <p class="text-sm lg:text-base m-0 p-0"><a href="http://www.linkedin.com/in/robertbherring" target="_blank">LinkedIn:</a></p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://www.linkedin.com/in/robertbherring" target="_blank">http://www.linkedin.com/in/robertbherring</a></p>
-            <p class="text-sm lg:text-base m-0 p-0"><a href="http://dribbble.com/pixelrubble" target="_blank">dribbble:</a></p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="http://dribbble.com/pixelrubble" target="_blank">http://dribbble.com/pixelrubble</a></p>
-            <p class="text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">instagram:</p>
-            <p class="text-sm lg:text-base m-0 p-0 col-span-3 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">http://instagram.com/fromtherubble</p>
-            <!-- <p class="text-sm lg:text-base m-0 p-0"><a href="https://twitter.com/fishgraphics" target="_blank">twitter:</a></p> -->
-            <!-- <p class="text-sm lg:text-base m-0 p-0 col-span-3"><a href="https://twitter.com/fishgraphics" target="_blank">https://twitter.com/fishgraphics</a></p> -->
+        <div>
+            <div class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white">
+                <div class="">Email:</div>
+                <div class="flex-grow lg:col-span-3">info@robert-herring.com</div>
+            </div>
+            <div class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white">
+                <div class="">Phone:</div>
+                <div class="flex-grow lg:col-span-3">803.553.2043</div>
+            </div>
+            <div class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'videos')">
+                <div class="">Video Work:</div>
+                <div class="flex-grow lg:col-span-3">YouTube Playlist</div>
+            </div>
+            <a href="https://www.facebook.com/pixelrubble" target="_blank" class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0">
+                <div class="">Facebook:</div>
+                <div class="flex-grow lg:col-span-3">https://www.facebook.com/pixelrubble</div>
+            </a>
+            <a href="https://www.linkedin.com/in/robertbherring" target="_blank" class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0">
+                <div class="">LinkedIn:</div>
+                <div class="flex-grow lg:col-span-3">https://www.linkedin.com/in/robertbherring</div>
+            </a>
+            <a href="https://dribbble.com/pixelrubble" target="_blank" class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0">
+                <div class="">dribbble:</div>
+                <div class="flex-grow lg:col-span-3">https://dribbble.com/pixelrubble</div>
+            </a>
+            <div class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">
+                <div class="">instagram:</div>
+                <div class="flex-grow lg:col-span-3">https://instagram.com/fromtherubble</div>
+            </div>
+            <!-- <a href="https://twitter.com/fishgraphics" target="_blank" class="flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0"> -->
+                <!-- <div class="">twitter:</div> -->
+                <!-- <div class="flex-grow lg:col-span-3">https://twitter.com/fishgraphics</div> -->
+            <!-- </a> -->
         </div>
     </div>
 
