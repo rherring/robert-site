@@ -1,8 +1,8 @@
 <x-layout>
-    <x-slot name="title">Welcome to Robert-Herring.com</x-slot>
+    <x-slot name="title">Welcome to {{ config('app.name')  }}</x-slot>
 
     <x-slot name="main">
-        <!-- We need to include our modal using livewire, or our html markup we will not be loaded -->
+        <!-- We need to include our modal using livewire, or our html markup will not be loaded -->
         @livewire('livewire-ui-modal')
 
         <x-nav />
