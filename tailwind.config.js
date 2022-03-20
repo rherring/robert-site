@@ -52,10 +52,9 @@ module.exports = {
   },
   variants: {},
   plugins: [
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-      require('@tailwindcss/line-clamp'),
-      require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp'),
   ]
 }
