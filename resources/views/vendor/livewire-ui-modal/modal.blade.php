@@ -43,7 +43,7 @@
                     x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
                     x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                     x-bind:class="modalWidth"
-                    class="inline-block w-full lg:my-8 align-middle lg:align-bottom p-6 bg-grayish-900 rounded-lg text-left overflow-hidden shadow transform transition-all max-h-screen"
+                    class="max-w-screen-lg inline-block w-full lg:my-8 align-middle lg:align-bottom p-6 bg-grayish-900 rounded-lg text-left overflow-hidden shadow transform transition-all max-h-screen"
             >
                 @forelse($components as $id => $component)
                     <div x-show.immediate="activeComponent == '{{ $id }}'" x-ref="{{ $id }}">
