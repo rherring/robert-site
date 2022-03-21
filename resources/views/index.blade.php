@@ -18,7 +18,7 @@
                     </div>
                     <div class="pt-6 lg:pt-0">
                         <h1 class="text-blue-400">Robert Herring</h1>
-                        <h2 class="text-blue-400">Full Stack Engineer</h2>
+                        <h2 class="text-blue-400">Software Engineer</h2>
                         <p class="text-gray-400">My name is Robert Herring. I first used a computer in 1988, but I truly got serious about them when my dad brought home our first one in 1997. In September of ’97 I built my first of many fantastic websites. From there, I got into design. It was the marriage of design and code where I found my calling. The ability to code was fun, but making my projects look great and stand out in the crowd is the most rewarding.</p>
                         <div class="job">
                             <div class="header flex gap-2 items-center mb-3">
@@ -29,14 +29,17 @@
                                 <hr class="flex-grow" />
                             </div>
                             <div class="experience">
+                                <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Software Engineer:</h3><h4 class="flex-grow"><span class="uppercase">LoudDoor</span>, 2021 - 2022</h4></div>
+                                <p class="text-gray-400">As a software engineer, I helped developer several websites used to sell NFT's online. I was resposible to the front-end development, look, feel, and user experiance. I also helped maintain several websites they used for other businesses they managed. The majorite of the site were Laravel or Vite sites, with one being a Shopify site.</p>
+
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Developer:</h3><h4 class="flex-grow"><span class="uppercase">Disciple Christian MC</span>, 2009 - 2021</h4></div>
-                                <p class="text-gray-400">In 2009, I designed, developed, and maintained Disciple's first website. I helped create the look and feel of non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I've also helped with video and motion graphics production.</p>
+                                <p class="text-gray-400">In 2009, I designed, developed, and maintained Disciple's first website. As a co-founder, I helped create the look and feel of the non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that I launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I've also helped with video and motion graphics production.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Designer:</h3><h4 class="flex-grow"><span class="uppercase">Diesel Laptops</span> in <span class="uppercase">Irmo</span>, 2018 - 2021</h4></div>
                                 <p class="text-gray-400">Aided in the design and development of each of the three corporate websites, product packaging, conference booths, materials for conferences and sales reps, and produced and edited corporate videos.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Marketing Specialist:</h3><h4 class="flex-grow"><span class="uppercase">IMCS</span> in <span class="uppercase">Irmo</span>, 2017 - 2018</h4></div>
-                                <p class="text-gray-400">Maintained the corporate website, produced and edited corporate videos, designed product packaging, conference booths, and print material for conferences and sales reps.</p>
+                                <p class="text-gray-400">Maintained the corporate website, produced and edited corporate videos including a 360 video for VR, designed product packaging, conference booths, and print material for conferences and sales reps.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Lead Web Developer in Marketing:</h3><h4 class="flex-grow"><span class="uppercase">GIS</span> in <span class="uppercase">Chapin</span>, 2014 - 2017</h4></div>
                                 <p class="text-gray-400">Designed and developed GIS‘s entire responsive website from the ground up. Worked with high-profile clients designing the interface for their onboarding portals and Filmed and produced several in-house videos.</p>
