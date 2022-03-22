@@ -128,7 +128,7 @@
                         </div>
                         <p class="text-gray-400">Tailwind</p>
                         <div class="flex items-center w-full -mt-4 mb-4">
-                            <div class="skillLevel bg-blue-400 h-4 w-10/12"></div>
+                            <div class="skillLevel bg-blue-400 h-4 w-11/12"></div>
                             <div class="skillBar bg-gray-50 h-4 flex-grow"></div>
                         </div>
                         <p class="text-gray-400">Bootstrap</p>

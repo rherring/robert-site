@@ -242,7 +242,7 @@
     h1 { font-family: exoextralight; @apply text-3xl md:text-5xl m-0 text-blue-400; }
     h2 { font-family: exobold; @apply text-2xl md:text-4xl m-0 text-blue-400; }
     h3 { font-family: exomedium; @apply text-xl uppercase text-white; }
-    h4 { font-family: exolight; @apply text-lg text-gray-300; }
+    h4 { font-family: exolight; @apply text-base text-gray-400; }
     h5 { font-family: exobold; @apply text-lg uppercase text-blue-400; }
     h6 { font-family: exobold; @apply text-base uppercase text-gray-300; }
 
@@ -263,7 +263,7 @@
 
     p { font-family:exolight; @apply text-base text-gray-400 leading-5 mt-1 mb-6; /*text-shadow: 0 0 10px #000;*/ }
     p span { font-family:exodemibold; @apply text-gray-400; }
-    span { @apply text-gray-400; }
+    span { @apply text-gray-300; }
     strong { font-family:exodemibold; @apply font-normal; }
 
     input { @apply w-full text-blue-400 bg-black bg-opacity-40 border border-black border-opacity-60; }
