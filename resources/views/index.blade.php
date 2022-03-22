@@ -193,16 +193,29 @@
                         </div>
                     </div>
                     <div class="divide-y-2 divide-gray-500">
+                        <div class="work lg:grid grid-cols-3 text-gray-50" url="https://barefootparrots.com/">
+                            <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
+                                <div class="aspect-w-16 aspect-h-8"><a href="https://barefootparrots.com/" alt="Barefoot Parrots" target="_blank" class="w-full h-full block p-6" style="background: url('{{ asset('img/bp.png') }}') center center no-repeat; background-size: cover;"></a></div>
+                            </div>
+                            <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
+                                <h5 class="text-blue-400">Barefoot Parrots</h5>
+                                <h6>NFT, Crypto, Festival [2022]</h6>
+                                <p class="text-gray-400">Barefoot Parrots is an NFT and Crypto funded festival that will be held every year.</p>
+                                <p class="text-gray-400">I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP.</p>
+                                <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="block hover:text-white">View Site</a></button>
+                            </div>
+                        </div>
+
                         <div class="work lg:grid grid-cols-3 text-gray-50" url="https://www.diesellaptops.com/">
                             <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
                                 <div class="aspect-w-16 aspect-h-8"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('{{ asset('img/dl.png') }}') center center no-repeat; background-size: cover;"></a></div>
                             </div>
                             <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Diesel Laptops</h5>
-                                <h6>E-Commerce Platform, 2019</h6>
+                                <h6>E-Commerce Platform [2019]</h6>
                                 <p class="text-gray-400">Diesel Laptops provides diagnostic equipment for the truck, construction, automotive, ag, and off-highway markets.</p>
                                 <p class="text-gray-400">I helped design and develop this entire site using the latest methods in jQuery, HTML5, CSS3, PHP, and LIQUID for Shopify.</p>
-                                <button class="text-gray-400"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank">View Site</a></button>
+                                <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="block hover:text-white">View Site</a></button>
                             </div>
                         </div>
 
@@ -212,10 +225,10 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Diesel Laptops Training</h5>
-                                <h6>E-Commerce Platform, 2019</h6>
+                                <h6>E-Commerce Platform [2019]</h6>
                                 <p class="text-gray-400">Diesel Laptops makes it their mission to provide high quality technician training for the diesel repair industries!</p>
                                 <p class="text-gray-400">I helped design and develop this entire site using the latest methods in jQuery, HTML5, CSS3, PHP, and LIQUID for Shopify.</p>
-                                <p class="text-gray-400 text-right"><a href="https://training.diesellaptops.com/" alt="Diesel Laptops Training" target="_blank">View Site</a></p>
+                                <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full"><a href="https://training.diesellaptops.com/" alt="Diesel Laptops Training" target="_blank" class="block hover:text-white">View Site</a></button>
                             </div>
                         </div>
 
@@ -225,10 +238,10 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Marine Diagnostic Tools</h5>
-                                <h6>E-Commerce Platform, 2019</h6>
+                                <h6>E-Commerce Platform [2019]</h6>
                                 <p class="text-gray-400">Everything Diesel Laptops offers on land, Marine Diagnostic Tools will offer on water.</p>
                                 <p class="text-gray-400">I helped design and develop this entire site using the latest methods in jQuery, HTML5, CSS3, PHP, and LIQUID for Shopify.</p>
-                                <p class="text-gray-400 text-right"><a href="https://marinediagnostictools.com/" alt="Marine Diagnostic Tools" target="_blank">View Site</a></p>
+                                <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full"><a href="https://marinediagnostictools.com/" alt="Marine Diagnostic Tools" target="_blank" class="block hover:text-white">View Site</a></button>
                             </div>
                         </div>
 
@@ -238,10 +251,10 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Disciple Christian MC</h5>
-                                <h6>E-Commerce Platform, 2017</h6>
+                                <h6>E-Commerce Platform [2017]</h6>
                                 <p class="text-gray-400">Disciple Christian MC is the fastest growing, and largest christian motorcycle club globaly.</p>
                                 <p class="text-gray-400">I completely designed and developed this entire site in just under a three months using the latest methods in jQuery, HTML5, CSS3, and Shopify as an ecommerce backbone.</p>
-                                <button class="text-gray-400 text-right"><a href="http://www.disciplechristianmc.com/" alt="Disciple Christian MC" target="_blank">View Site</a></button>
+                                <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full"><a href="http://www.disciplechristianmc.com/" alt="Disciple Christian MC" target="_blank" class="block hover:text-white">View Site</a></button>
                             </div>
                         </div>
 
@@ -251,7 +264,7 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">General Information Services</h5>
-                                <h6>Corporate Website, 2015</h6>
+                                <h6>Corporate Website [2015]</h6>
                                 <p class="text-gray-400">General Information Services is one of the largest background check companies in America. Using the latest methods in ASP, HTML5, CSS3, and jQuery, I was able to develop a state of the art, resposive website.</p>
                                 <p class="text-gray-400">I completely designed and developed this entire site in just under a year.</p>
                                 <!-- <p class="text-gray-400"><a href="#" alt="General Information Services" target="_blank">View Site</a></p> -->
@@ -264,7 +277,7 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Frontline Arsenal</h5>
-                                <h6>E-Commerce Website, 2013</h6>
+                                <h6>E-Commerce Website [2013]</h6>
                                 <p class="text-gray-400">Frontline Arsenal went from earning twenty thousand dollars a month in sales, to over one hundred thousand dollars in sales in a single month after we built their new site.</p>
                                 <p class="text-gray-400">I helped design and completely developed this site in a three month span.</p>
                                 <!-- <p class="text-gray-400"><a href="http://frontlinearsenal.com/" alt="Frontline Arsenal" target="_blank">View Site</a></p> -->
@@ -277,7 +290,7 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Lexington Referral Group</h5>
-                                <h6>Member‘s Website, 2011</h6>
+                                <h6>Member‘s Website [2011]</h6>
                                 <p class="text-gray-400">The Lexington Referral Group came to me in 2011 needing a way to explain who they are, what they do, display their members names and occupations, meeting times, and meeting location.</p>
                                 <p class="text-gray-400">I designed and developed the entire website in three weeks.</p>
                                 <!-- <p class="text-gray-400"><a href="http://lrg.isbeingdesigned.com/" alt="Lexington Referral Group" target="_blank">View Site</a></p> -->
@@ -290,7 +303,7 @@
                             </div>
                             <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                                 <h5 class="text-blue-400">Experienced Builders 2</h5>
-                                <h6>Website, 2010</h6>
+                                <h6>Website [2010]</h6>
                                 <p class="text-gray-400">Experienced Builders 2 came to us needing a new and fresh look for their company.</p>
                                 <p class="text-gray-400">I designed and developed this entire website in two months and developed the flash piece in one week.</p>
                                 <!-- <p class="text-gray-400"><a href="http://eb2.isbeingdesigned.com/" alt="Experienced Builders 2" target="_blank">View Site</a></p> -->
