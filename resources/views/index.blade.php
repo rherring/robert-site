@@ -29,7 +29,7 @@
                                 <hr class="flex-grow" />
                             </div>
                             <div class="experience">
-                                <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Software Engineer:</h3><h4 class="flex-grow"><span class="uppercase">LoudDoor</span>, 2021 - 2022</h4></div>
+                                <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Software Engineer:</h3><h4 class="flex-grow"><span class="uppercase">LoudDoor</span> in <span>Columbia</span>, 2021 - 2022</h4></div>
                                 <p class="text-gray-400">As a software engineer, I helped developer several websites used to sell NFT's online. I was resposible for the front-end development, look, feel, and user experiance, as well as setting up the database to capture the users information and movements on the sites. I also helped maintain several websites they used for other businesses they managed. The majority of the websites were Laravel or Vite sites, with one being a Shopify E-Commerce site.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Developer:</h3><h4 class="flex-grow"><span class="uppercase">Disciple Christian MC</span>, 2009 - 2021</h4></div>
@@ -39,7 +39,7 @@
                                 <p class="text-gray-400">Aided in the design and development of each of the three corporate websites, product packaging, conference booths, materials for conferences and sales reps, and produced and edited corporate videos.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Marketing Specialist:</h3><h4 class="flex-grow"><span class="uppercase">IMCS</span> in <span class="uppercase">Irmo</span>, 2017 - 2018</h4></div>
-                                <p class="text-gray-400">Maintained the corporate website, produced and edited corporate videos including a 360 video for VR, designed product packaging, conference booths, and print material for conferences and sales reps.</p>
+                                <p class="text-gray-400">IMCS stnad for Integrated Micro-Chromatography Systems. Here, I maintained the corporate website, produced and edited corporate videos including a 360 video for VR, designed product packaging, conference booths, and print material for both conferences and sales reps.</p>
 
                                 <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Lead Web Developer in Marketing:</h3><h4 class="flex-grow"><span class="uppercase">GIS</span> in <span class="uppercase">Chapin</span>, 2014 - 2017</h4></div>
                                 <p class="text-gray-400">Designed and developed GIS‘s entire responsive website from the ground up. Worked with high-profile clients designing the interface for their onboarding portals and Filmed and produced several in-house videos.</p>
