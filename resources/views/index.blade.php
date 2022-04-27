@@ -10,7 +10,7 @@
             <div class="lg:grid grid-cols-3 text-gray-50 relative">
                 <nav class="inside absolute transform -rotate-90 top-28 hidden lg:flex">
                     <div class="bg-gray-200 hover:bg-gray-400 border-r border-gray-100 ease-in-out transition-all duration-150"><a href="/download-resume" target="_blank" class="block"><span class="px-4 text-xl py-2 block text-gray-400 hover:text-gray-200 transition-all ease-in-out duration-300">resume</span></a></div>
-                    <div class="bg-gray-200 hover:bg-gray-400 border-l border-gray-300 cursor-pointer ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'contact')"><span class="px-4 text-xl py-2 block text-gray-400 hover:text-gray-200 transition-all ease-in-out duration-300" style="font-family:exolight;">contact</span></div>
+                    <div class="bg-gray-200 hover:bg-gray-400 border-l border-gray-300 cursor-pointer ease-in-out transition-all duration-150" onclick="livewire.emit('openModal', 'contact')"><span class="px-4 text-xl py-2 block text-gray-400 hover:text-gray-200 transition-all ease-in-out duration-300" style="font-family:exolight;">contact</span></div>
                 </nav>
                 <div class="col-span-2 bg-black bg-opacity-20 p-6 lg:p-12">
                     <div class="lg:hidden aspect-w-1 aspect-h-1 rounded-full">
@@ -82,11 +82,11 @@
                         <div class="sideBarIcons">
                             <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-map-marker fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-default text-white">Lexington, SC</p></div>
                             <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-default text-white">803.553.2043</p></div>
-                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'contact')">info@robert-herring.com</p></div>
+                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="livewire.emit('openModal', 'contact')">info@robert-herring.com</p></div>
                             <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-default text-white">www.robert-herring.com</p></div>
-                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'videos')">Video Work</p></div>
+                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="livewire.emit('openModal', 'videos')">Video Work</p></div>
                             <!-- <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span><p class="flex-grow"><a href="https://twitter.com/FiSHGRAPHICS" target="_blank">@fishgraphics</a></p></div> -->
-                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'instagram')">FromTheRubble</p></div>
+                            <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span><p class="flex-grow cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="livewire.emit('openModal', 'instagram')">FromTheRubble</p></div>
                             <div class="flex gap-2"><span class="fa-stack fa-sm flex-none"><i class="fas fa-circle fa-stack-2x text-blue-400"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span><p class="flex-grow"><a href="https://github.com/rherring/robert-site#readme" target="_blank">This Laravel Build</a></p></div>
                         </div>
                     </div>
@@ -319,7 +319,7 @@
 
     <x-slot name="footer">
         <div class="footer max-w-screen-lg mx-auto">
-            <p class="text-gray-400 text-center">{{ now()->year }} &copy; Copyright All Rights Reserved<br class="lg:hidden"/><span class="hidden lg:contents" style="font-family:exolight;"> &bull; </span><span class="cursor-default text-white" style="font-family:exolight;">803.553.2043</span> &bull; <span class="cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="Livewire.emit('openModal', 'contact')" style="font-family:exolight;">info@robert-herring.com</span></p>
+            <p class="text-gray-400 text-center">{{ now()->year }} &copy; Copyright All Rights Reserved<br class="lg:hidden"/><span class="hidden lg:contents" style="font-family:exolight;"> &bull; </span><span class="cursor-default text-white" style="font-family:exolight;">803.553.2043</span> &bull; <span class="cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" onclick="livewire.emit('openModal', 'contact')" style="font-family:exolight;">info@robert-herring.com</span></p>
         </div>
     </x-slot>
 
