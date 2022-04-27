@@ -74,5 +74,6 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     @livewireScripts
+    @livewire('livewire-ui-modal')
 </body>
 </html>
