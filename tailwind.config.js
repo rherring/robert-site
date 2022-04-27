@@ -2,6 +2,8 @@ module.exports = {
   purge: [
     './resources/views/**/*.blade.php',
     './resources/css/**/*.css',
+    './vendor/wire-elements/modal/resources/views/*.blade.php',
+    './storage/framework/views/*.php',
   ],
   theme: {
     extend: {
