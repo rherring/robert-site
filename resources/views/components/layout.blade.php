@@ -36,8 +36,6 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-    @livewireStyles
-
     <script src="https://kit.fontawesome.com/f2a503802f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -72,7 +70,5 @@
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
-    @livewireScripts
 </body>
 </html>
