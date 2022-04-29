@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full">
-        <iframe class="iFrame overflow-hidden max-w-screen-md w-screen" :style="{ height: 'calc(' + myHeight + 'px - 100px)' }" src='https://www.sociablekit.com/app/embed/68507' frameborder='0' width="100%" height="1000"></iframe>
+        <iframe class="iFrame overflow-hidden max-w-screen-md w-screen" :style="{ height: 'calc(' + myHeight + 'px - 100px)', width: 'calc(' + myWidth + 'px - 40px)' }" src='https://www.sociablekit.com/app/embed/68507' frameborder='0' width="100%" height="1000"></iframe>
     </div>
 </template>
 

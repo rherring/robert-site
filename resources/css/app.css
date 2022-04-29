@@ -336,4 +336,8 @@
     .submenu:hover {
         display: block !important;
     }
+
+    .bm-burger-bars {
+        background: white !important;
+    }
 }
