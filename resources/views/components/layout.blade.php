@@ -39,8 +39,8 @@
     <script src="https://kit.fontawesome.com/f2a503802f.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="h-full flex flex-col justify-start">
-    <main id="app">
+<body class="h-full flex flex-col justify-start" id="app">
+    <main>
         {{ $main }}
     </main>
 

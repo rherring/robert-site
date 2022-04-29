@@ -104,7 +104,11 @@ export default {
         }
 
         function onReset() {
-            //
+            contactForm.name = ''
+            contactForm.email = ''
+            contactForm.url = ''
+            contactForm.subject = ''
+            contactForm.message = ''
         }
 
         return { onSubmit, onReset, openNewModal, contactForm }

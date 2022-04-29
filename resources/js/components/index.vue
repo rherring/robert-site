@@ -309,72 +309,44 @@
         </div>
     </div>
 
-    <vue-final-modal v-model="showModal" name="example"
-        :esc-to-close="true"
-        :transition="{
-            'enter-active-class': 'transition duration-200 ease-in-out transform',
-            'enter-from-class': 'translate-y-full',
-            'enter-to-class': 'translate-y-0',
-            'leave-active-class': 'transition duration-200 ease-in-out transform',
-            'leave-to-class': 'translate-y-full',
-            'leave-from-class': 'translate-y-0'
-        }"
-        classes="flex justify-center items-center"
-    >
-        <div class="flex items-center justify-center p-2 lg:px-4 lg:pt-4 lg:pb-10 text-center">
-            <div class="relative max-w-screen-lg inline-block w-full p-6 bg-grayish-900 rounded-lg text-left overflow-hidden shadow transform transition-all max-h-screen" >
-                <button class="cursor-pointer absolute top-0 text-right right-0 px-4 p-2 block text-white hover:text-blue-400 ease-in-out transition-all duration-150" @click="showModal = false">
-                    &#215;
-                </button>
-            
-                <InputContact v-show="showContact" v-model="contactForm" @new-modal="openModal"/>
-                <InputVideos v-show="showVideos" />
-                <InputInstagram v-show="showInstagram" />
-            </div>
-        </div>
-    </vue-final-modal>
+    <ImportModal v-model="showModal" @close-modal="closeModal" :whichModal="whichModal" />
+    
 </template>
 <script>
-import { $vfm, VueFinalModal, ModalsContainer } from 'vue-final-modal'
 import { ref, reactive, onUpdated } from 'vue'
-import InputContact from './contact.vue'
-import InputVideos from './videos.vue'
-import InputInstagram from './instagram.vue'
+import ImportModal from './modal.vue'
 
 export default {
-    name: 'Welcome',
+    name: 'HomePage',
     components: {
-        VueFinalModal,
-        ModalsContainer,
-        InputContact,
-        InputVideos,
-        InputInstagram
+        ImportModal
     },
-    props: [],
+    props: ['whichModal'],
     setup(props) {
         const showModal = ref(false)
-        const showContact = ref(true)
+        const whichModal = ref('')
+        const showContact = ref(false)
         const showVideos = ref(false)
         const showInstagram = ref(false)
 
-        const contactForm = reactive({ name: '', email: '', url: '', subject: '', message: '' })
-
         function openModal(thisModal) {
 
-            thisModal === 'contact' ? showContact.value = true : showContact.value = false
-            thisModal === 'videos' ? showVideos.value = true : showVideos.value = false
-            thisModal === 'instagram' ? showInstagram.value = true : showInstagram.value = false
+            whichModal.value = thisModal
 
             if (showModal.value != true) {
                 return showModal.value = true
             }
         }
 
+        function closeModal() {
+            return showModal.value = false
+        }
+
         onUpdated(() => {
             // console.log('test')
         });
 
-        return { openModal, showModal, showContact, showVideos, showInstagram, contactForm }
+        return { openModal, closeModal, showModal, whichModal, showContact, showVideos, showInstagram }
     }
 }
 </script>
