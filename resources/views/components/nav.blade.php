@@ -1,4 +1,4 @@
-<nav class="flex lg:hidden max-w-screen-xl mx-auto p-4 flex justify-between items-center space-x-4 absolute z-10 w-full right-0 mr-0">
+<nav class="flex lg:hidden max-w-screen-xl mx-auto p-4 justify-between items-center space-x-4 absolute z-10 w-full right-0 mr-0">
     <div>&nbsp;</div>
     <div class="-mr-2 flex">
         <button type="button" class="ham inline-flex items-center justify-center p-2 rounded-md text-gray-400 bg-white border hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500" aria-controls="mobile-menu" aria-expanded="false">

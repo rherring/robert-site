@@ -90,7 +90,6 @@ export default {
         }
 
         function onSubmit() {
-            console.log(contactForm.name)
             if (contactForm.name && contactForm.email && contactForm.message) {
                 axios.post('/contact-me', contactForm).then((response) => {
                     return response.data
@@ -115,7 +114,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>

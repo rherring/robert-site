@@ -2,7 +2,7 @@
     <x-slot name="title">Welcome to {{ config('app.name')  }}</x-slot>
 
     <x-slot name="main">
-        <!-- <x-nav /> -->
+        <x-nav />
         <index-page></index-page>
     </x-slot>
 

@@ -12,7 +12,7 @@
         classes="flex justify-center items-center"
     >
         <div class="flex items-center justify-center p-2 lg:px-4 lg:pt-4 lg:pb-10 text-center">
-            <div class="relative max-w-screen-lg inline-block w-full p-6 bg-grayish-900 rounded-lg text-left overflow-hidden shadow transform transition-all max-h-screen" >
+            <div class="relative max-w-screen-lg inline-block w-full p-6 bg-grayish-900 rounded-lg text-left overflow-hidden overflow-y-auto shadow transform transition-all max-h-screen" >
                 <button class="cursor-pointer absolute top-0 text-right right-0 px-4 p-2 block text-white hover:text-blue-400 ease-in-out transition-all duration-150" @click="closeModal()">
                     &#215;
                 </button>
@@ -61,16 +61,14 @@ export default {
             emit('close-modal', 'false');
         }
         onMounted(() => {
-            console.log('mounted')
+            // console.log('mounted')
         })
 
         onUnmounted(() => {
-            console.log('unmounted')
+            // console.log('unmounted')
         })
 
         onUpdated(() => {
-            console.log(props.whichModal)
-
             props.whichModal === 'contact' ? showContact.value = true : showContact.value = false
             props.whichModal === 'videos' ? showVideos.value = true : showVideos.value = false
             props.whichModal === 'instagram' ? showInstagram.value = true : showInstagram.value = false
@@ -80,7 +78,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>

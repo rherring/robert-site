@@ -19301,8 +19301,6 @@ __webpack_require__.r(__webpack_exports__);
     }
 
     function onSubmit() {
-      console.log(contactForm.name);
-
       if (contactForm.name && contactForm.email && contactForm.message) {
         axios.post('/contact-me', contactForm).then(function (response) {
           return response.data;
@@ -19555,14 +19553,11 @@ __webpack_require__.r(__webpack_exports__);
       emit('close-modal', 'false');
     }
 
-    (0,vue__WEBPACK_IMPORTED_MODULE_1__.onMounted)(function () {
-      console.log('mounted');
+    (0,vue__WEBPACK_IMPORTED_MODULE_1__.onMounted)(function () {// console.log('mounted')
     });
-    (0,vue__WEBPACK_IMPORTED_MODULE_1__.onUnmounted)(function () {
-      console.log('unmounted');
+    (0,vue__WEBPACK_IMPORTED_MODULE_1__.onUnmounted)(function () {// console.log('unmounted')
     });
     (0,vue__WEBPACK_IMPORTED_MODULE_1__.onUpdated)(function () {
-      console.log(props.whichModal);
       props.whichModal === 'contact' ? showContact.value = true : showContact.value = false;
       props.whichModal === 'videos' ? showVideos.value = true : showVideos.value = false;
       props.whichModal === 'instagram' ? showInstagram.value = true : showInstagram.value = false;
@@ -20369,7 +20364,7 @@ var _hoisted_1 = {
   "class": "flex items-center justify-center p-2 lg:px-4 lg:pt-4 lg:pb-10 text-center"
 };
 var _hoisted_2 = {
-  "class": "relative max-w-screen-lg inline-block w-full p-6 bg-grayish-900 rounded-lg text-left overflow-hidden shadow transform transition-all max-h-screen"
+  "class": "relative max-w-screen-lg inline-block w-full p-6 bg-grayish-900 rounded-lg text-left overflow-hidden overflow-y-auto shadow transform transition-all max-h-screen"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ImportContact = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ImportContact");
@@ -20436,7 +20431,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
     "class": "iFrame overflow-hidden max-w-screen-md w-screen",
     style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({
-      height: 'calc(' + $setup.myHeight + 'px - 100px)'
+      height: 'calc(' + $setup.myHeight + 'px - 100px)',
+      width: 'calc(' + $setup.myWidth + 'px - 40px)'
     }),
     src: "https://www.sociablekit.com/app/embed/67361",
     frameborder: "0",
