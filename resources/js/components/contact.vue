@@ -1,7 +1,10 @@
 <template>
     <div>
         <h1>Drop me a line...</h1>
-        <div id="contact" name="contact" class="py-6">
+        <div class="w-full" v-show="showSuccess">
+            <p>Your message has been delivered. I will be in touch with you shortly.</p>
+        </div>
+        <div id="contact" name="contact" class="py-6" v-show="!showSuccess">
             <div class="lg:grid grid-cols-2 gap-6 pb-6">
                 <div class="m-0 p-0 space-y-4">
                     <input v-model="contactForm.name" class="w-full text-blue-400 bg-black bg-opacity-40 border border-black border-opacity-60" type="text" name="name" id="name" tabindex="1" placeholder="Name" required />
@@ -20,7 +23,6 @@
                 <button @click="onSubmit()" class="w-full p-2 text-blue-300 hover:text-blue-400 bg-white bg-opacity-30 hover:bg-opacity-10 border border-black border-opacity-60 ease-in-out transition-all duration-150 button" type="submit" >Send Message</button>
                 <button @click="onReset()" class="w-full p-2 text-blue-300 hover:text-blue-400 bg-white bg-opacity-30 hover:bg-opacity-10 border border-black border-opacity-60" type="reset" >Reset Form</button>
             </div>
-
         </div>
         <div class="contact">
             <h3>Other Ways to Contact Me</h3>
@@ -65,7 +67,7 @@
 </template>
 
 <script>
-import { ref, reactive, computed, onUpdated } from 'vue'
+import { ref, reactive, computed, onUpdated, onMounted } from 'vue'
 
 export default {
     name: "Contact",
@@ -80,6 +82,7 @@ export default {
 
     setup(props, { emit }) {
         const contactForm = reactive({ name: '', email: '', url: '', subject: '', message: '' })
+        const showSuccess = ref(false)
 
         onUpdated(() => {
             // console.log(contactForm)
@@ -92,6 +95,11 @@ export default {
         function onSubmit() {
             if (contactForm.name && contactForm.email && contactForm.message) {
                 axios.post('/contact-me', contactForm).then((response) => {
+                    if (response.data == "success") {
+                        showSuccess.value = true
+                        onReset()
+                        setTimeout(() => showSuccess.value = false, 5000);
+                    }
                     return response.data
                 }).catch((error) => {
                     let er = error.response.data.errors
@@ -110,7 +118,11 @@ export default {
             contactForm.message = ''
         }
 
-        return { onSubmit, onReset, openNewModal, contactForm }
+        onMounted(() => {
+            //
+        })
+
+        return { onSubmit, onReset, openNewModal, showSuccess, contactForm }
     }
 }
 </script>

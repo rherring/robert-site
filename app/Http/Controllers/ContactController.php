@@ -14,7 +14,7 @@ class ContactController extends Controller
     {
         $myEmail = 'info@robert-herring.com';
 
-//        die($request->name);
+//        dd($request->name);
 
         request()->validate([
             'name' => ['required', 'string', 'max:191'],
@@ -24,7 +24,7 @@ class ContactController extends Controller
             'message' => ['required', 'string']
         ]);
 
-//        die('working');
+//        dd('working');
 
         $details = [
             'subject' => 'New message from Robert-Herring.com.',
@@ -35,12 +35,12 @@ class ContactController extends Controller
             'message' => $request->message
         ];
 
-//        die('everything is working ' . $details['name']);
+//        dd('everything is working ' . $details['name']);
 
         Mail::to($myEmail)->send(new contact($details));
         Mail::to($request->email)->send(new thankyou($details));
 
-        return Redirect::back()->with('success', 'Your message has been delivered. I will be in touch with you shortly.');
+        return response()->json('success');
     }
 
     /**

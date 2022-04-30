@@ -19293,6 +19293,7 @@ __webpack_require__.r(__webpack_exports__);
       subject: '',
       message: ''
     });
+    var showSuccess = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     (0,vue__WEBPACK_IMPORTED_MODULE_0__.onUpdated)(function () {// console.log(contactForm)
     });
 
@@ -19303,6 +19304,14 @@ __webpack_require__.r(__webpack_exports__);
     function onSubmit() {
       if (contactForm.name && contactForm.email && contactForm.message) {
         axios.post('/contact-me', contactForm).then(function (response) {
+          if (response.data == "success") {
+            showSuccess.value = true;
+            onReset();
+            setTimeout(function () {
+              return showSuccess.value = false;
+            }, 5000);
+          }
+
           return response.data;
         })["catch"](function (error) {
           var er = error.response.data.errors; // let ov = Object.values(er)
@@ -19321,10 +19330,13 @@ __webpack_require__.r(__webpack_exports__);
       contactForm.message = '';
     }
 
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(function () {//
+    });
     return {
       onSubmit: onSubmit,
       onReset: onReset,
       openNewModal: openNewModal,
+      showSuccess: showSuccess,
       contactForm: contactForm
     };
   }
@@ -19715,21 +19727,30 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_2 = {
+  "class": "w-full"
+};
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Your message has been delivered. I will be in touch with you shortly.", -1
+/* HOISTED */
+);
+
+var _hoisted_4 = [_hoisted_3];
+var _hoisted_5 = {
   id: "contact",
   name: "contact",
   "class": "py-6"
 };
-var _hoisted_3 = {
+var _hoisted_6 = {
   "class": "lg:grid grid-cols-2 gap-6 pb-6"
 };
-var _hoisted_4 = {
+var _hoisted_7 = {
   "class": "m-0 p-0 space-y-4"
 };
-var _hoisted_5 = {
+var _hoisted_8 = {
   "class": "mt-4 lg:m-0 p-0"
 };
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "hidden status"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   id: "signup-response"
@@ -19737,50 +19758,52 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_7 = {
+var _hoisted_10 = {
   "class": "lg:flex gap-6 space-y-6 lg:space-y-0"
 };
-var _hoisted_8 = {
+var _hoisted_11 = {
   "class": "contact"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Other Ways to Contact Me", -1
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Other Ways to Contact Me", -1
 /* HOISTED */
 );
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white\"><div class=\"\">Email:</div><div class=\"flex-grow lg:col-span-3\">info@robert-herring.com</div></div><div class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white\"><div class=\"\">Phone:</div><div class=\"flex-grow lg:col-span-3\">803.553.2043</div></div>", 2);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white\"><div class=\"\">Email:</div><div class=\"flex-grow lg:col-span-3\">info@robert-herring.com</div></div><div class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-default text-white\"><div class=\"\">Phone:</div><div class=\"flex-grow lg:col-span-3\">803.553.2043</div></div>", 2);
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": ""
 }, "Video Work:", -1
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex-grow lg:col-span-3"
 }, "YouTube Playlist", -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_12, _hoisted_13];
+var _hoisted_17 = [_hoisted_15, _hoisted_16];
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<a href=\"https://www.facebook.com/pixelrubble\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">Facebook:</div><div class=\"flex-grow lg:col-span-3\">https://www.facebook.com/pixelrubble</div></a><a href=\"https://www.linkedin.com/in/robertbherring\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">LinkedIn:</div><div class=\"flex-grow lg:col-span-3\">https://www.linkedin.com/in/robertbherring</div></a><a href=\"https://dribbble.com/pixelrubble\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">dribbble:</div><div class=\"flex-grow lg:col-span-3\">https://dribbble.com/pixelrubble</div></a>", 3);
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<a href=\"https://www.facebook.com/pixelrubble\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">Facebook:</div><div class=\"flex-grow lg:col-span-3\">https://www.facebook.com/pixelrubble</div></a><a href=\"https://www.linkedin.com/in/robertbherring\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">LinkedIn:</div><div class=\"flex-grow lg:col-span-3\">https://www.linkedin.com/in/robertbherring</div></a><a href=\"https://dribbble.com/pixelrubble\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"><div class=\"\">dribbble:</div><div class=\"flex-grow lg:col-span-3\">https://dribbble.com/pixelrubble</div></a>", 3);
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": ""
 }, "instagram:", -1
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex-grow lg:col-span-3"
 }, "https://instagram.com/fromtherubble", -1
 /* HOISTED */
 );
 
-var _hoisted_20 = [_hoisted_18, _hoisted_19];
+var _hoisted_23 = [_hoisted_21, _hoisted_22];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, _hoisted_4, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $setup.showSuccess]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return $setup.contactForm.name = $event;
     }),
@@ -19830,7 +19853,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     placeholder: "Subject"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.contactForm.subject]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.contactForm.subject]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
     "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
       return $setup.contactForm.message = $event;
     }),
@@ -19844,7 +19867,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.contactForm.message]])])]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.contactForm.message]])])]), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[5] || (_cache[5] = function ($event) {
       return $setup.onSubmit();
     }),
@@ -19856,17 +19879,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "w-full p-2 text-blue-300 hover:text-blue-400 bg-white bg-opacity-30 hover:bg-opacity-10 border border-black border-opacity-60",
     type: "reset"
-  }, "Reset Form")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }, "Reset Form")])], 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, !$setup.showSuccess]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     onClick: _cache[7] || (_cache[7] = function ($event) {
       return $setup.openNewModal('videos');
     }),
     "class": "flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150"
-  }, _hoisted_14), _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }, _hoisted_17), _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     onClick: _cache[8] || (_cache[8] = function ($event) {
       return $setup.openNewModal('instagram');
     }),
     "class": "flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0 cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150"
-  }, _hoisted_20), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a href=\"https://twitter.com/fishgraphics\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"\">twitter:</div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex-grow lg:col-span-3\">https://twitter.com/fishgraphics</div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </a> ")])])]);
+  }, _hoisted_23), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a href=\"https://twitter.com/fishgraphics\" target=\"_blank\" class=\"flex gap-2 items-center lg:grid lg:grid-cols-4 lg:space-y-1 text-sm lg:text-base m-0 p-0\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"\">twitter:</div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"flex-grow lg:col-span-3\">https://twitter.com/fishgraphics</div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" </a> ")])])]);
 }
 
 /***/ }),
