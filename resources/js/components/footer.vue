@@ -1,6 +1,6 @@
 <template>
     <div class="footer max-w-screen-lg mx-auto">
-        <p class="text-gray-400 text-center">date &copy; Copyright All Rights Reserved<br class="lg:hidden"/><span class="hidden lg:contents" style="font-family:exolight;"> &bull; </span><span class="cursor-default text-white" style="font-family:exolight;">803.553.2043</span> &bull; <span class="cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" @click="openModal('contact')" style="font-family:exolight;">info@robert-herring.com</span></p>
+        <p class="text-gray-400 text-center">{{ thisYear() }} &copy; Copyright All Rights Reserved<br class="lg:hidden"/><span class="hidden lg:contents" style="font-family:exolight;"> &bull; </span><span class="cursor-default text-white" style="font-family:exolight;">803.553.2043</span> &bull; <span class="cursor-pointer text-white hover:text-blue-400 ease-in-out transition-all duration-150" @click="openModal('contact')" style="font-family:exolight;">info@robert-herring.com</span></p>
     </div>
 
     <ImportModal v-model="showModal" @close-modal="closeModal" :whichModal="whichModal" />
@@ -9,6 +9,7 @@
 <script>
 import { ref, reactive, onUpdated } from 'vue'
 import ImportModal from './modal.vue'
+import moment from 'moment';
 
 export default {
     name: 'Footer',
@@ -35,12 +36,16 @@ export default {
         function closeModal() {
             return showModal.value = false
         }
+        
+        function thisYear() {
+            return moment().format("YYYY");
+        }
 
         onUpdated(() => {
             // console.log('test')
         });
 
-        return { openModal, closeModal, showModal, whichModal, showContact, showVideos, showInstagram }
+        return { thisYear, openModal, closeModal, showModal, whichModal, showContact, showVideos, showInstagram }
     }
 }
 </script>
