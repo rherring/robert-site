@@ -9,7 +9,7 @@
                 <div class="lg:hidden aspect-w-1 aspect-h-1 rounded-full">
                     <div class="self w-full rounded-full" style="background: url('/img/pixelrubble.jpg') center center no-repeat; background-size: cover;"></div>
                 </div>
-                
+
                 <div class="pt-6 lg:pt-0">
                     <h1 class="text-blue-400">Robert Herring</h1>
                     <h2 class="text-blue-400">Software Engineer</h2>
@@ -23,11 +23,11 @@
                             <hr class="flex-grow" />
                         </div>
                         <div class="experience">
+                            <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Engineer:</h3><h4 class="flex-grow"><span class="uppercase">AcquireCrowd</span> in <span>California</span>, 2021 - 2022</h4></div>
+                            <p class="text-gray-400">As a full stack engineer, I developed internal platforms for the company that enabled each department to communicate and create work requests using the latest standards in Laravel, Vue,js, and Tailwind CSS, I helped maintain the companies main revenue generating website, using Laravel, VueJS, and Tailwind CSS, and I created over 50 individual websites used to generate lead revenue. The sites were developed using plain HTML, Tailwind CSS, and Vanilla JavaScript.</p>
+
                             <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Software Engineer:</h3><h4 class="flex-grow"><span class="uppercase">LoudDoor</span> in <span>Columbia</span>, 2021 - 2022</h4></div>
                             <p class="text-gray-400">As a software engineer, I helped develop several websites used to generate buzz around and to sell NFT's online. I was responsible for the front-end development, look, feel, and user experience, as well as setting up the database to capture the users information and movements on the sites. I also helped maintain several websites they used for other businesses they managed. The majority of the websites were Laravel or Vite sites, with one being a Shopify E-Commerce site.</p>
-
-                            <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Developer:</h3><h4 class="flex-grow"><span class="uppercase">Disciple Christian MC</span>, 2009 - 2021</h4></div>
-                            <p class="text-gray-400">In 2009, I designed, developed, and maintained Disciple's first website. As a co-founder, I helped create the look and feel of the non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that I launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I've also helped with video and motion graphics production.</p>
 
                             <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Designer:</h3><h4 class="flex-grow"><span class="uppercase">Diesel Laptops</span> in <span class="uppercase">Irmo</span>, 2018 - 2021</h4></div>
                             <p class="text-gray-400">Aided in the design and development of each of the three corporate websites, product packaging, conference booths, materials for conferences and sales reps, and produced and edited corporate videos.</p>
@@ -41,8 +41,11 @@
                             <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Lead Developer:</h3><h4 class="flex-grow"><span class="uppercase">The Para Firm</span> in <span class="uppercase">Columbia</span>, 2012 - 2013</h4></div>
                             <p class="text-gray-400">Developed high-end websites that include E-Commerce and Parallax style websites and developed an in-house iPad app using xCode to sell TPF‘s marketing solution.</p>
 
-                            <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Freelance Web Dev / design:</h3><h4 class="flex-grow"><span class="uppercase">Lexington</span>, 2011 - 2012</h4></div>
+                            <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Freelance Web Dev / designer:</h3><h4 class="flex-grow"><span class="uppercase">Lexington</span>, 2011 - 2012</h4></div>
                             <p class="text-gray-400">Developed interactive Flash websites, Website Mockups and Wireframes, Marketing Campaigns, Print Ads, Web Banners, and Motion Graphics.</p>
+
+                            <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Full Stack Developer:</h3><h4 class="flex-grow"><span class="uppercase">Disciple Christian MC</span>, 2009 - 2021</h4></div>
+                            <p class="text-gray-400">In 2009, I designed, developed, and maintained Disciple's first website. As a co-founder, I helped create the look and feel of the non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that I launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I've also helped with video and motion graphics production.</p>
 
                             <div class="header lg:flex gap-2 items-center"><h3 class="flex-none">Art Director:</h3><h4 class="flex-grow"><span class="uppercase">Splash Omnimedia</span> in <span class="uppercase">Lexington</span>, 2008 - 2011</h4></div>
                             <p class="text-gray-400">Developed cutting-edge, standards-compliant websites, worked in print design, web design, email campaigns, trade show booth design, and branding. I created wireframes, mock-ups, prototypes, front-end code, and back-end code.</p>
@@ -187,22 +190,35 @@
                     </div>
                 </div>
                 <div class="divide-y-2 divide-gray-500">
-                    <div class="work lg:grid grid-cols-3 text-gray-50" url="https://barefootparrots.com/">
+                    <div class="work lg:grid grid-cols-3 text-gray-50" url="https://qrclicked.com//">
                         <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><a href="https://barefootparrots.com/" alt="Barefoot Parrots" target="_blank" class="w-full h-full block p-6" style="background: url('/img/bp.png') center center no-repeat; background-size: cover;"></a></div>
+                            <div class="aspect-w-16 aspect-h-8"><a href="https://qrclicked.com/" alt="QR Clicked" target="_blank" class="w-full h-full block p-6" style="background: url('/img/qrc.png') center top no-repeat; background-size: cover;"></a></div>
+                        </div>
+                        <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
+                            <h5 class="text-blue-400">QR Clicked</h5>
+                            <h6>QR Code Generator [2022]</h6>
+                            <p class="text-gray-400">QR Clicked is a website that is designed to generate and track QR Codes.</p>
+                            <p class="text-gray-400">I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP.</p>
+                            <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300"><a href="https://www.qrclicked.com/" alt="Diesel Laptops" target="_blank" class="block hover:text-white">View Site</a></button>
+                        </div>
+                    </div>
+
+                    <div class="work lg:grid grid-cols-3 text-gray-50">
+                        <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
+                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/bp.png') center top no-repeat; background-size: cover;"></div></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Barefoot Parrots</h5>
                             <h6>NFT, Crypto, Festival [2022]</h6>
                             <p class="text-gray-400">Barefoot Parrots is an NFT and Crypto funded festival that will be held every year.</p>
                             <p class="text-gray-400">I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP.</p>
-                            <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="block hover:text-white">View Site</a></button>
+                            <!-- <button class="text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300"><a href="https://www.barefootparrots.com/" alt="Diesel Laptops" target="_blank" class="block hover:text-white">View Site</a></button> -->
                         </div>
                     </div>
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="https://www.diesellaptops.com/">
                         <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dl.png') center center no-repeat; background-size: cover;"></a></div>
+                            <div class="aspect-w-16 aspect-h-8"><a href="https://www.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dl.png') center top no-repeat; background-size: cover;"></a></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Diesel Laptops</h5>
@@ -215,7 +231,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="https://training.diesellaptops.com/">
                         <div class="col-span-2 bg-black bg-opacity-40 lg:bg-opacity-20 px-6 lg:px-12 py-6 justify-items-center">
-                            <div class="aspect-w-16 aspect-h-8"><a href="https://training.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dlt.png') center center no-repeat; background-size: cover;"></a></div>
+                            <div class="aspect-w-16 aspect-h-8"><a href="https://training.diesellaptops.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dlt.png') center top no-repeat; background-size: cover;"></a></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Diesel Laptops Training</h5>
@@ -228,7 +244,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="https://marinediagnostictools.com/">
                         <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><a href="https://marinediagnostictools.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/mdt.png') center center no-repeat; background-size: cover;"></a></div>
+                            <div class="aspect-w-16 aspect-h-8"><a href="https://marinediagnostictools.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/mdt.png') center top no-repeat; background-size: cover;"></a></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Marine Diagnostic Tools</h5>
@@ -241,7 +257,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="http://www.disciplechristianmc.com/">
                         <div class="col-span-2 bg-black bg-opacity-40 lg:bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><a href="http://www.disciplechristianmc.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dcmc.png') center center no-repeat; background-size: cover;"></a></div>
+                            <div class="aspect-w-16 aspect-h-8"><a href="http://www.disciplechristianmc.com/" alt="Diesel Laptops" target="_blank" class="w-full h-full block p-6" style="background: url('/img/dcmc.png') center top no-repeat; background-size: cover;"></a></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Disciple Christian MC</h5>
@@ -254,7 +270,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="#">
                         <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/gis.png') center center no-repeat; background-size: cover;"></div></div>
+                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/gis.png') center top no-repeat; background-size: cover;"></div></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">General Information Services</h5>
@@ -267,7 +283,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50" url="#">
                         <div class="col-span-2 bg-black bg-opacity-40 lg:bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/frontline.png') center center no-repeat; background-size: cover;"></div></div>
+                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/frontline.png') center top no-repeat; background-size: cover;"></div></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Frontline Arsenal</h5>
@@ -280,7 +296,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50">
                         <div class="col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/lrg-sc.png') center center no-repeat; background-size: cover;"></div></div>
+                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/lrg-sc.png') center top no-repeat; background-size: cover;"></div></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Lexington Referral Group</h5>
@@ -293,7 +309,7 @@
 
                     <div class="work lg:grid grid-cols-3 text-gray-50">
                         <div class="col-span-2 bg-black bg-opacity-40 lg:bg-opacity-20 px-6 lg:px-12 py-6">
-                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/eb2.png') center center no-repeat; background-size: cover;"></div></div>
+                            <div class="aspect-w-16 aspect-h-8"><div class="w-full h-full block p-6" style="background: url('/img/eb2.png') center top no-repeat; background-size: cover;"></div></div>
                         </div>
                         <div class="workInfo bg-black bg-opacity-40 px-6 lg:px-12 py-4">
                             <h5 class="text-blue-400">Experienced Builders 2</h5>
@@ -310,7 +326,7 @@
     </div>
 
     <ImportModal v-model="showModal" @close-modal="closeModal" :whichModal="whichModal" />
-    
+
 </template>
 <script>
 import { ref, reactive, onUpdated } from 'vue'

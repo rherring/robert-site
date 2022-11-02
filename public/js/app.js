@@ -20025,7 +20025,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_6 = [_hoisted_5];
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-span-2 bg-black bg-opacity-20 p-6 lg:p-12\"><div class=\"lg:hidden aspect-w-1 aspect-h-1 rounded-full\"><div class=\"self w-full rounded-full\" style=\"background:url(&#39;/img/pixelrubble.jpg&#39;) center center no-repeat;background-size:cover;\"></div></div><div class=\"pt-6 lg:pt-0\"><h1 class=\"text-blue-400\">Robert Herring</h1><h2 class=\"text-blue-400\">Software Engineer</h2><p class=\"text-gray-400\">My name is Robert Herring. I first used a computer in 1988, but I truly got serious about them when my dad brought home our first one in 1997. In September of ’97 I built my first of many fantastic websites. From there, I got into design. It was the marriage of design and code where I found my calling. The ability to code was fun, but making my projects look great and stand out in the crowd is the most rewarding.</p><div class=\"job\"><div class=\"header flex gap-2 items-center mb-3\"><span class=\"fa-stack fa-sm flex-none\"><i class=\"fas fa-circle fa-stack-2x text-blue-400\"></i><i class=\"fa fa-user fa-stack-1x fa-inverse\"></i></span><h3 class=\"text-blue-400\">Job Experience</h3><hr class=\"flex-grow\"></div><div class=\"experience\"><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Software Engineer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">LoudDoor</span> in <span>Columbia</span>, 2021 - 2022</h4></div><p class=\"text-gray-400\">As a software engineer, I helped develop several websites used to generate buzz around and to sell NFT&#39;s online. I was responsible for the front-end development, look, feel, and user experience, as well as setting up the database to capture the users information and movements on the sites. I also helped maintain several websites they used for other businesses they managed. The majority of the websites were Laravel or Vite sites, with one being a Shopify E-Commerce site.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Stack Developer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Disciple Christian MC</span>, 2009 - 2021</h4></div><p class=\"text-gray-400\">In 2009, I designed, developed, and maintained Disciple&#39;s first website. As a co-founder, I helped create the look and feel of the non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that I launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I&#39;ve also helped with video and motion graphics production.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Stack Designer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Diesel Laptops</span> in <span class=\"uppercase\">Irmo</span>, 2018 - 2021</h4></div><p class=\"text-gray-400\">Aided in the design and development of each of the three corporate websites, product packaging, conference booths, materials for conferences and sales reps, and produced and edited corporate videos.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Marketing Specialist:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">IMCS</span> in <span class=\"uppercase\">Irmo</span>, 2017 - 2018</h4></div><p class=\"text-gray-400\">IMCS stnad for Integrated Micro-Chromatography Systems. Here, I maintained the corporate website, produced and edited corporate videos including a 360 video for VR, designed product packaging, conference booths, and print material for both conferences and sales reps.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Lead Web Developer in Marketing:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">GIS</span> in <span class=\"uppercase\">Chapin</span>, 2014 - 2017</h4></div><p class=\"text-gray-400\">Designed and developed GIS‘s entire responsive website from the ground up. Worked with high-profile clients designing the interface for their onboarding portals and Filmed and produced several in-house videos.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Lead Developer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">The Para Firm</span> in <span class=\"uppercase\">Columbia</span>, 2012 - 2013</h4></div><p class=\"text-gray-400\">Developed high-end websites that include E-Commerce and Parallax style websites and developed an in-house iPad app using xCode to sell TPF‘s marketing solution.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Freelance Web Dev / design:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Lexington</span>, 2011 - 2012</h4></div><p class=\"text-gray-400\">Developed interactive Flash websites, Website Mockups and Wireframes, Marketing Campaigns, Print Ads, Web Banners, and Motion Graphics.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Art Director:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Splash Omnimedia</span> in <span class=\"uppercase\">Lexington</span>, 2008 - 2011</h4></div><p class=\"text-gray-400\">Developed cutting-edge, standards-compliant websites, worked in print design, web design, email campaigns, trade show booth design, and branding. I created wireframes, mock-ups, prototypes, front-end code, and back-end code.</p></div></div><div class=\"education\"><div class=\"header flex gap-2 items-center mb-3\"><span class=\"fa-stack fa-sm\"><i class=\"fas fa-circle fa-stack-2x text-blue-400\"></i><i class=\"fa fa-lightbulb-o fa-stack-1x fa-inverse\"></i></span><h3 class=\"text-blue-400\">Educations</h3><hr class=\"flex-grow\"></div><div class=\"schools\"><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Sail University:</h3><h4 class=\"flex-grow\"><span>Bachelor</span> of <span>Science</span> in <span>Digital Arts &amp; Design</span> in 2008</h4></div><p class=\"text-gray-400\">The <span class=\"text-gray-300\">Digital Arts &amp; Design</span> degree provided a complete design education, with industry-specific courses that teaches you how to communicate ideas and stories through different media, including <span class=\"text-gray-300\">video</span>, <span class=\"text-gray-300\">print</span>, <span class=\"text-gray-300\">motion graphics</span>, and the <span class=\"text-gray-300\">web</span>.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Midlands Technical College:</h3><h4 class=\"flex-grow\"><span>Associates</span> of <span>Arts</span> in 2003</h4></div><p class=\"text-gray-400\">Developed high end websites that includes E-Commerce and Parallax websites, and developed an in-house iPad app, in xCode, used to sell TPF‘s marketing solution.</p></div></div></div></div>", 1);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-span-2 bg-black bg-opacity-20 p-6 lg:p-12\"><div class=\"lg:hidden aspect-w-1 aspect-h-1 rounded-full\"><div class=\"self w-full rounded-full\" style=\"background:url(&#39;/img/pixelrubble.jpg&#39;) center center no-repeat;background-size:cover;\"></div></div><div class=\"pt-6 lg:pt-0\"><h1 class=\"text-blue-400\">Robert Herring</h1><h2 class=\"text-blue-400\">Software Engineer</h2><p class=\"text-gray-400\">My name is Robert Herring. I first used a computer in 1988, but I truly got serious about them when my dad brought home our first one in 1997. In September of ’97 I built my first of many fantastic websites. From there, I got into design. It was the marriage of design and code where I found my calling. The ability to code was fun, but making my projects look great and stand out in the crowd is the most rewarding.</p><div class=\"job\"><div class=\"header flex gap-2 items-center mb-3\"><span class=\"fa-stack fa-sm flex-none\"><i class=\"fas fa-circle fa-stack-2x text-blue-400\"></i><i class=\"fa fa-user fa-stack-1x fa-inverse\"></i></span><h3 class=\"text-blue-400\">Job Experience</h3><hr class=\"flex-grow\"></div><div class=\"experience\"><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Stack Engineer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">AcquireCrowd</span> in <span>California</span>, 2021 - 2022</h4></div><p class=\"text-gray-400\">As a full stack engineer, I developed internal platforms for the company that enabled each department to communicate and create work requests using the latest standards in Laravel, Vue,js, and Tailwind CSS, I helped maintain the companies main revenue generating website, using Laravel, VueJS, and Tailwind CSS, and I created over 50 individual websites used to generate lead revenue. The sites were developed using plain HTML, Tailwind CSS, and Vanilla JavaScript.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Software Engineer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">LoudDoor</span> in <span>Columbia</span>, 2021 - 2022</h4></div><p class=\"text-gray-400\">As a software engineer, I helped develop several websites used to generate buzz around and to sell NFT&#39;s online. I was responsible for the front-end development, look, feel, and user experience, as well as setting up the database to capture the users information and movements on the sites. I also helped maintain several websites they used for other businesses they managed. The majority of the websites were Laravel or Vite sites, with one being a Shopify E-Commerce site.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Stack Designer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Diesel Laptops</span> in <span class=\"uppercase\">Irmo</span>, 2018 - 2021</h4></div><p class=\"text-gray-400\">Aided in the design and development of each of the three corporate websites, product packaging, conference booths, materials for conferences and sales reps, and produced and edited corporate videos.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Marketing Specialist:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">IMCS</span> in <span class=\"uppercase\">Irmo</span>, 2017 - 2018</h4></div><p class=\"text-gray-400\">IMCS stnad for Integrated Micro-Chromatography Systems. Here, I maintained the corporate website, produced and edited corporate videos including a 360 video for VR, designed product packaging, conference booths, and print material for both conferences and sales reps.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Lead Web Developer in Marketing:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">GIS</span> in <span class=\"uppercase\">Chapin</span>, 2014 - 2017</h4></div><p class=\"text-gray-400\">Designed and developed GIS‘s entire responsive website from the ground up. Worked with high-profile clients designing the interface for their onboarding portals and Filmed and produced several in-house videos.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Lead Developer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">The Para Firm</span> in <span class=\"uppercase\">Columbia</span>, 2012 - 2013</h4></div><p class=\"text-gray-400\">Developed high-end websites that include E-Commerce and Parallax style websites and developed an in-house iPad app using xCode to sell TPF‘s marketing solution.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Freelance Web Dev / designer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Lexington</span>, 2011 - 2012</h4></div><p class=\"text-gray-400\">Developed interactive Flash websites, Website Mockups and Wireframes, Marketing Campaigns, Print Ads, Web Banners, and Motion Graphics.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Stack Developer:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Disciple Christian MC</span>, 2009 - 2021</h4></div><p class=\"text-gray-400\">In 2009, I designed, developed, and maintained Disciple&#39;s first website. As a co-founder, I helped create the look and feel of the non-profit both online and in real life. I helped develop products and apparel to be sold both online and at in-person events. In October of 2016, I started designing and developing their current e-commerce platform that I launched on January 1, 2017. In March of 2021, I designed and developed a completely new (anti)social media platform from scratch using Laravel, Vue JS, Node, and CSS3 for the Christian organization so they can have a secure location online for communication. Since 2009, I&#39;ve also helped with video and motion graphics production.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Art Director:</h3><h4 class=\"flex-grow\"><span class=\"uppercase\">Splash Omnimedia</span> in <span class=\"uppercase\">Lexington</span>, 2008 - 2011</h4></div><p class=\"text-gray-400\">Developed cutting-edge, standards-compliant websites, worked in print design, web design, email campaigns, trade show booth design, and branding. I created wireframes, mock-ups, prototypes, front-end code, and back-end code.</p></div></div><div class=\"education\"><div class=\"header flex gap-2 items-center mb-3\"><span class=\"fa-stack fa-sm\"><i class=\"fas fa-circle fa-stack-2x text-blue-400\"></i><i class=\"fa fa-lightbulb-o fa-stack-1x fa-inverse\"></i></span><h3 class=\"text-blue-400\">Educations</h3><hr class=\"flex-grow\"></div><div class=\"schools\"><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Full Sail University:</h3><h4 class=\"flex-grow\"><span>Bachelor</span> of <span>Science</span> in <span>Digital Arts &amp; Design</span> in 2008</h4></div><p class=\"text-gray-400\">The <span class=\"text-gray-300\">Digital Arts &amp; Design</span> degree provided a complete design education, with industry-specific courses that teaches you how to communicate ideas and stories through different media, including <span class=\"text-gray-300\">video</span>, <span class=\"text-gray-300\">print</span>, <span class=\"text-gray-300\">motion graphics</span>, and the <span class=\"text-gray-300\">web</span>.</p><div class=\"header lg:flex gap-2 items-center\"><h3 class=\"flex-none\">Midlands Technical College:</h3><h4 class=\"flex-grow\"><span>Associates</span> of <span>Arts</span> in 2003</h4></div><p class=\"text-gray-400\">Developed high end websites that includes E-Commerce and Parallax websites, and developed an in-house iPad app, in xCode, used to sell TPF‘s marketing solution.</p></div></div></div></div>", 1);
 
 var _hoisted_8 = {
   "class": "bg-black bg-opacity-40 p-6 lg:p-12"
@@ -20130,18 +20130,45 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   "class": "divide-y-2 divide-gray-500"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "work lg:grid grid-cols-3 text-gray-50",
-  url: "https://barefootparrots.com/"
+  url: "https://qrclicked.com//"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "aspect-w-16 aspect-h-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://barefootparrots.com/",
-  alt: "Barefoot Parrots",
+  href: "https://qrclicked.com/",
+  alt: "QR Clicked",
   target: "_blank",
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/bp.png') center center no-repeat",
+    "background": "url('/img/qrc.png') center top no-repeat",
+    "background-size": "cover"
+  }
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "workInfo bg-black bg-opacity-20 lg:bg-opacity-40 px-6 lg:px-12 py-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+  "class": "text-blue-400"
+}, "QR Clicked"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "QR Code Generator [2022]"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-gray-400"
+}, "QR Clicked is a website that is designed to generate and track QR Codes."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-gray-400"
+}, "I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.qrclicked.com/",
+  alt: "Diesel Laptops",
+  target: "_blank",
+  "class": "block hover:text-white"
+}, "View Site")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "work lg:grid grid-cols-3 text-gray-50"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-span-2 bg-black bg-opacity-20 px-6 lg:px-12 py-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "aspect-w-16 aspect-h-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full h-full block p-6",
+  style: {
+    "background": "url('/img/bp.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20152,14 +20179,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   "class": "text-gray-400"
 }, "Barefoot Parrots is an NFT and Crypto funded festival that will be held every year."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-gray-400"
-}, "I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.diesellaptops.com/",
-  alt: "Diesel Laptops",
-  target: "_blank",
-  "class": "block hover:text-white"
-}, "View Site")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+}, "I developed this site using the latest methods in Laravel, Vue, Tailwind, and PHP."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <button class=\"text-gray-400 bg-blue-400 hover:bg-blue-500 w-full transition-all ease-in-out duration-300\"><a href=\"https://www.barefootparrots.com/\" alt=\"Diesel Laptops\" target=\"_blank\" class=\"block hover:text-white\">View Site</a></button> ")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "work lg:grid grid-cols-3 text-gray-50",
   url: "https://www.diesellaptops.com/"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20172,7 +20192,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   target: "_blank",
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/dl.png') center center no-repeat",
+    "background": "url('/img/dl.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20203,7 +20223,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   target: "_blank",
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/dlt.png') center center no-repeat",
+    "background": "url('/img/dlt.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20234,7 +20254,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   target: "_blank",
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/mdt.png') center center no-repeat",
+    "background": "url('/img/mdt.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20265,7 +20285,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   target: "_blank",
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/dcmc.png') center center no-repeat",
+    "background": "url('/img/dcmc.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20293,7 +20313,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/gis.png') center center no-repeat",
+    "background": "url('/img/gis.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20314,7 +20334,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/frontline.png') center center no-repeat",
+    "background": "url('/img/frontline.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20334,7 +20354,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/lrg-sc.png') center center no-repeat",
+    "background": "url('/img/lrg-sc.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -20354,7 +20374,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "w-full h-full block p-6",
   style: {
-    "background": "url('/img/eb2.png') center center no-repeat",
+    "background": "url('/img/eb2.png') center top no-repeat",
     "background-size": "cover"
   }
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -59746,13 +59766,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _contact_vue_vue_type_template_id_768395a5__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact.vue?vue&type=template&id=768395a5 */ "./resources/js/components/contact.vue?vue&type=template&id=768395a5");
 /* harmony import */ var _contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.vue?vue&type=script&lang=js */ "./resources/js/components/contact.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_contact_vue_vue_type_template_id_768395a5__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/contact.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_contact_vue_vue_type_template_id_768395a5__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/contact.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59774,13 +59794,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _footer_vue_vue_type_template_id_585a4226__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=585a4226 */ "./resources/js/components/footer.vue?vue&type=template&id=585a4226");
 /* harmony import */ var _footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.vue?vue&type=script&lang=js */ "./resources/js/components/footer.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_footer_vue_vue_type_template_id_585a4226__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/footer.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_footer_vue_vue_type_template_id_585a4226__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/footer.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59802,13 +59822,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _index_vue_vue_type_template_id_2ac2c897__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=2ac2c897 */ "./resources/js/components/index.vue?vue&type=template&id=2ac2c897");
 /* harmony import */ var _index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js */ "./resources/js/components/index.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_index_vue_vue_type_template_id_2ac2c897__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/index.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_index_vue_vue_type_template_id_2ac2c897__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/index.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59830,13 +59850,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _instagram_vue_vue_type_template_id_30254e12__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./instagram.vue?vue&type=template&id=30254e12 */ "./resources/js/components/instagram.vue?vue&type=template&id=30254e12");
 /* harmony import */ var _instagram_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./instagram.vue?vue&type=script&lang=js */ "./resources/js/components/instagram.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_instagram_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_instagram_vue_vue_type_template_id_30254e12__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/instagram.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_instagram_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_instagram_vue_vue_type_template_id_30254e12__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/instagram.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59858,13 +59878,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _modal_vue_vue_type_template_id_478d961c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modal.vue?vue&type=template&id=478d961c */ "./resources/js/components/modal.vue?vue&type=template&id=478d961c");
 /* harmony import */ var _modal_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modal.vue?vue&type=script&lang=js */ "./resources/js/components/modal.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_modal_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_modal_vue_vue_type_template_id_478d961c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/modal.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_modal_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_modal_vue_vue_type_template_id_478d961c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/modal.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59886,13 +59906,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _nav_vue_vue_type_template_id_199c5fa8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav.vue?vue&type=template&id=199c5fa8 */ "./resources/js/components/nav.vue?vue&type=template&id=199c5fa8");
 /* harmony import */ var _nav_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav.vue?vue&type=script&lang=js */ "./resources/js/components/nav.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_nav_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_nav_vue_vue_type_template_id_199c5fa8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/nav.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_nav_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_nav_vue_vue_type_template_id_199c5fa8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/nav.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -59914,13 +59934,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _videos_vue_vue_type_template_id_b76a3d3a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./videos.vue?vue&type=template&id=b76a3d3a */ "./resources/js/components/videos.vue?vue&type=template&id=b76a3d3a");
 /* harmony import */ var _videos_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./videos.vue?vue&type=script&lang=js */ "./resources/js/components/videos.vue?vue&type=script&lang=js");
-/* harmony import */ var _Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,_Users_robertherring_webprojects_robert_site_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_videos_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_videos_vue_vue_type_template_id_b76a3d3a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/videos.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_videos_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_videos_vue_vue_type_template_id_b76a3d3a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/videos.vue"]])
 /* hot reload */
 if (false) {}
 
