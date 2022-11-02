@@ -12,7 +12,7 @@
 
                 <div class="pt-6 lg:pt-0">
                     <h1 class="text-blue-400">Robert Herring</h1>
-                    <h2 class="text-blue-400">Software Engineer</h2>
+                    <h2 class="text-blue-400">Full Stack Engineer</h2>
                     <p class="text-gray-400">My name is Robert Herring. I first used a computer in 1988, but I truly got serious about them when my dad brought home our first one in 1997. In September of ’97 I built my first of many fantastic websites. From there, I got into design. It was the marriage of design and code where I found my calling. The ability to code was fun, but making my projects look great and stand out in the crowd is the most rewarding.</p>
                     <div class="job">
                         <div class="header flex gap-2 items-center mb-3">
